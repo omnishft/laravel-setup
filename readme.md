@@ -1,6 +1,8 @@
 # Laravel+Docker Setup
 
 - [ ] Rename container appropriately
+- [ ] Rename network appropriately
+- [ ] Rename env variables
 - [ ] Configure ports
 - [ ] Make a source folder for the source code
     - [ ] mkdir -p /src
