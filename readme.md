@@ -18,6 +18,7 @@
             - [ ] chmod -R a+rw .
 - [ ] Connect to database
     - [ ] change .env dbhost= <db service name in docker>
+    - [ ] mysql://user:password@host:port/dbname
 - [ ] Artisan commands
     - [ ] Run inside the container:
     - [ ] php artisan migrate
