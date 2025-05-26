@@ -17,7 +17,12 @@
             - [ ] chmod -R a+rw .
 - [ ] Connect to database
     - [ ] change .env dbhost= <db service name in docker>
-    - [ ] docker compose run --rm artisan db:show
-    - [ ] docker compose run --rm artisan migrate
+- [ ] Artisan commands
+    - [ ] Run inside the container:
+    - [ ] php artisan migrate
+    - [ ] php artisan db:show
 
+    - [ ] Run outside the container:
+    - [ ] docker compose run --rm artisan migrate
+    - [ ] docker compose run --rm artisan db:show
 
