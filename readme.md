@@ -2,6 +2,7 @@
 
 - [ ] Rename container appropriately
 - [ ] Rename network appropriately
+    - If not you might get database authentication errors
 - [ ] Rename env variables
 - [ ] Configure ports
 - [ ] Make a source folder for the source code
