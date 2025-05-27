@@ -16,6 +16,9 @@
         - [ ] docker compose exec app bash --when entering a container remember to always use the service name and not the container name
         - [ ] Give read and write permissions
             - [ ] chmod -R a+rw .
+            Or:
+            - [ ] chmod -R ug+rwX storage bootstrap/cache
+            - [ ] chown -R www-data:www-data storage bootstrap/cache
 - [ ] Connect to database
     - [ ] change .env dbhost= <db service name in docker>
     - [ ] mysql://user:password@host:port/dbname
